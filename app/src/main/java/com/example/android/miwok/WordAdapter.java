@@ -23,7 +23,7 @@ import java.util.ArrayList;
 
 public class WordAdapter extends ArrayAdapter<Word> {
 
-    public MediaPlayer mediaPlayer;
+    public MediaPlayer mediaPlayer = null;
     Context mContext = getContext();
     private AudioManager mAudioManager;
     private int mColorResourceId;
